@@ -2,6 +2,17 @@
 <html lang="es">
   <head>
     <title>Sorteo F1</title>
+    <script >
+    function validarInput(id) {
+      var input = document.getElementById(id);
+      var valor = input.value;
+      if (valor.includes("<") || valor.includes(">")) {
+        input.setCustomValidity("Los carácteres < y > no están permitidos.");
+      } else {
+        input.setCustomValidity("");
+      }
+    }
+    </script>
     <link rel="stylesheet" href="stylesheet.css" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,19 +42,19 @@
      <legend>Datos personales</legend>
      <p>
       <label for="name_id">Nombre:</label><br>
-       <input type="text" id="name_id" name="name"></input>
+       <input type="text" id="name_id" name="name" oninput="validarInput('name_id')"></input>
      </p>
      <p>
       <label for="phone_id">Teléfono:</label><br>
-        <input type="text" id="phone_id" name="phone"></input>
+        <input type="text" id="phone_id" name="phone" oninput="validarInput('phone_id')"></input>
      </p>
      <p>
       <label for="email_id">Email:</label><br>
-        <input type="text" id="email_id" name="email" required></input>
+        <input type="text" id="email_id" name="email" oninput="validarInput('email_id')" required></input>
      </p>
     </fieldset>
     <fieldset class="boton">
-        <input type="submit" value="Registrate"></input>
+        <input type="submit" value="Registrate" ></input>
     </fieldset><img src="./Coches/pavos.jfif" width="400" height=auto>
    </form>
    <footer class="text-center text-white" style="background-color: #f1f1f1;">
