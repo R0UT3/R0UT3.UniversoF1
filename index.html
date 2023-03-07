@@ -3,91 +3,135 @@
   <head>
     <title>UniversoF1</title>
     <link rel="stylesheet" href="stylesheet.css" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./Coches/LogoUniversoF1.png">
-    <script src="https://kit.fontawesome.com/32a9489326.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./Coches/LogoUniversoF1.png" />
+    <script
+      src="https://kit.fontawesome.com/32a9489326.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand bg-dark" id="rounded" data-bs-theme="dark" >
+    <nav class="navbar navbar-expand bg-dark" id="rounded" data-bs-theme="dark">
       <div id="header">
-      <img class="logo" src="./Coches/LogoUniversoF1.png" alt="Logo de UniversoF1">
-      <h1 class="top">Universo F1</h1></div>
-      
-        <ul class="contenedor" id="roundedfull">
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./Pilotos.html">Conoce a los pilotos</a></li>
-          <li><a href="./Circuitos.html">Investiga los recorridos</a></li>
-          <li><a href="./Formulario.html">Entra en el sorteo</a></li>
-    </ul>
-        </nav>
-       <h2>Bienvenido a tu guia para el Campeonato Mundial de F1 2023</h2>
-       <section id="content"><p >
-          Bienvenidos a nuestra página dedicada a la Fórmula Uno,
-           el campeonato de automovilismo más prestigioso del mundo. Aquí encontrarás 
-          todo lo relacionado con esta emocionante competición, 
-          desde su historia hasta los últimos detalles de la temporada en curso.<br>
+        <img
+          class="logo"
+          src="./Coches/LogoUniversoF1.png"
+          alt="Logo de UniversoF1"
+        />
+        <h1 class="top">Universo F1</h1>
+      </div>
 
-          La Fórmula Uno es un deporte de velocidad que
-          ha atraído a millones de aficionados de todo el mundo desde su creación en 1950.
-           Con una combinación de habilidad, tecnología y emoción, la Fórmula Uno se
-            ha convertido en uno de los deportes más populares
-            y seguidos en el mundo.<br>
-          
+      <ul class="contenedor" id="roundedfull">
+        <li>
+          <a href="./index.html"><p id="ini">Inicio</p></a>
+        </li>
+        <li>
+          <a href="./Pilotos.html"><p id="pil">Conoce a los pilotos</p></a>
+        </li>
+        <li>
+          <a href="./Circuitos.html"
+            ><p id="rec">Investiga los recorridos</p></a
+          >
+        </li>
+        <li>
+          <a href="./Formulario.html"><p id="form">Entra en el sorteo</p></a>
+        </li>
+        <label for="language-select"></label>
+        <li>
+          <select id="language-select">
+            <option value="es"><img src="./Coches/es.png" />Español</option>
+            <option value="en"><img src="./Coches/gb-eng.png" />English</option>
+            <option value="fr"><img src="./Coches/fr.png" />Francais</option>
+            <option value="gr"><img src="./Coches/gr.png" />Deutsch</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+    <h2 id="titIndex">Bienvenido a tu guia para el Campeonato Mundial de F1 2023</h2>
+    <div class="photo">
+      <section id="content">
+        <p>
+          Bienvenidos a nuestra página dedicada a la Fórmula Uno, el campeonato
+          de automovilismo más prestigioso del mundo. Aquí encontrarás todo lo
+          relacionado con esta emocionante competición, desde su historia hasta
+          los últimos detalles de la temporada en curso.<br />
+
+          La Fórmula Uno es un deporte de velocidad que ha atraído a millones de
+          aficionados de todo el mundo desde su creación en 1950. Con una
+          combinación de habilidad, tecnología y emoción, la Fórmula Uno se ha
+          convertido en uno de los deportes más populares y seguidos en el
+          mundo.<br />
+
           En esta página, podrás encontrar información sobre los equipos y
-           pilotos participantes, así como también noticias, 
-          resultados y clasificaciones actualizadas de cada carrera. Además,
-           también tendremos contenido exclusivo 
-          sobre la tecnología y la ingeniería detrás de estos increíbles vehículos,
-           que hacen posible que estos pilotos alcancen velocidades supersónicas en las pistas.
-          <br>
-          No importa si eres un fanático de la Fórmula Uno o simplemente te 
-          interesa conocer más sobre este deporte 
-          emocionante, esta página es el lugar perfecto para estar informado.
-           ¡Síguenos para no perderte ninguna actualización! 
-          Y no te olvides de que tenemos regalos todos los meses 
-          para los afortunados que ganen nuestros sorteos. Asi que no lo dudes<a href="./Formulario.html"> ¡Registrate aqui!</a>.</p>
- <img src="./Coches/IniFoto.jpeg"></section>
- <footer class="text-center text-white" style="background-color: #f1f1f1;">
-  <div class="container pt-4">
-    <section class="mb-4">
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://es-es.facebook.com/"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://twitter.com/?lang=es"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-twitter"></i
-      ></a>
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://www.instagram.com/"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://www.linkedin.com/in/pablo-dom%C3%ADnguez-garc%C3%ADa-de-viedma-038872220/"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-    </section>
-  </div>
-  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Copyright:
-    <a class="text-dark" href="https://github.com/R0UT3">Github</a>
-  </div>
-</footer>
-  
-    </body>
+          pilotos participantes, así como también noticias, resultados y
+          clasificaciones actualizadas de cada carrera. Además, también
+          tendremos contenido exclusivo sobre la tecnología y la ingeniería
+          detrás de estos increíbles vehículos, que hacen posible que estos
+          pilotos alcancen velocidades supersónicas en las pistas.
+          <br />
+          No importa si eres un fanático de la Fórmula Uno o simplemente te
+          interesa conocer más sobre este deporte emocionante, esta página es el
+          lugar perfecto para estar informado. ¡Síguenos para no perderte
+          ninguna actualización! Y no te olvides de que tenemos regalos todos
+          los meses para los afortunados que ganen nuestros sorteos. Asi que no
+          lo dudes 
+        </p>
+        
+      </section>
+      <a id="enlace" href="./Formulario.html">¡Registrate aqui!</a>
+      <img src="./Coches/IniFoto.jpeg" />
+    </div>
+    <footer class="text-center text-white" style="background-color: #f1f1f1">
+      <div class="container pt-4">
+        <section class="mb-4">
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://es-es.facebook.com/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://twitter.com/?lang=es"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.instagram.com/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.linkedin.com/in/pablo-dom%C3%ADnguez-garc%C3%ADa-de-viedma-038872220/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </section>
+      </div>
+      <div
+        class="text-center text-dark p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2023 Copyright:
+        <a class="text-dark" href="https://github.com/R0UT3">Github</a>
+      </div>
+    </footer>
+    <script src="idioma.js"></script>
+    <script src="textos.json"></script>
+  </body>
 </html>

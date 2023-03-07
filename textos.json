@@ -1,0 +1,62 @@
+{
+  "en": {
+    "ini": "Home",
+    "pil": "Meet the drivers",
+    "rec": "Research the circuits",
+    "form": "Enter the raffle",
+    "content": "<p>Welcome to our page dedicated to Formula One, the most prestigious motorsport championship in the world. Here you will find everything related to this exciting competition, from its history to the latest details of the current season.<br /> Formula One is a high-speed sport that has attracted millions of fans from around the world since its creation in 1950. With a combination of skill, technology, and excitement, Formula One has become one of the most popular and widely followed sports in the world.<br /> On this page, you can find information about the participating teams and drivers, as well as updated news, results, and rankings for each race. In addition, we will also have exclusive content about the technology and engineering behind these incredible vehicles, which make it possible for these drivers to reach supersonic speeds on the tracks. <br /> Whether you are a die-hard fan of Formula One or just interested in learning more about this thrilling sport, this page is the perfect place to stay informed. Follow us to stay up-to-date! And don't forget that we have monthly giveaways for the lucky winners of our contests. So don't hesitate.<br><br></p>",
+    "enlace": "<a href='./Formulario.html'>Enter the Raffle!</a>",
+    "titIndex": "Welcome to your guide for the F1 2023 World Championship",
+    "titPil": "Meet the drivers",
+    "titRec": "Research the circuits",
+    "tHead": "<th scope=\"col\">Number</th><th scope=\"col\">Circuit</th><th scope=\"col\">Date</th><th scope=\"col\">Length</th><th scope=\"col\">Last winner</th>",
+    "forms2":"<legend>Personal data</legend><p><label for=\"name_id\">Name:</label><br><input type=\"text\" id=\"name_id\" name=\"name\" oninput=\"validarInput('name_id')\"></p><p><label for=\"phone_id\">Telephone number:</label><br><input type=\"text\" id=\"phone_id\" name=\"phone\" oninput=\"validarInput('phone_id')\"></p><p><label for=\"email_id\">Email:</label><br><input type=\"text\" id=\"email_id\" name=\"email\" oninput=\"validarInput('email_id')\" required></p>",
+    "thx":"Thanks for participating",
+    "regis":"Register"
+  },
+  "es": {
+    "ini": "Inicio",
+    "pil": "Conoce a los pilotos",
+    "rec": "Investiga los recorridos",
+    "form": "Entra en el sorteo",
+    "content": "<p> Bienvenidos a nuestra página dedicada a la Fórmula Uno, el campeonato de automovilismo más prestigioso del mundo. Aquí encontrarás todo lo relacionado con esta emocionante competición, desde su historia hasta los últimos detalles de la temporada en curso.<br /> La Fórmula Uno es un deporte de velocidad que ha atraído a millones de aficionados de todo el mundo desde su creación en 1950. Con una combinación de habilidad, tecnología y emoción, la Fórmula Uno se ha convertido en uno de los deportes más populares y seguidos en el mundo.<br /> En esta página, podrás encontrar información sobre los equipos y pilotos participantes, así como también noticias, resultados y clasificaciones actualizadas de cada carrera. Además, también tendremos contenido exclusivo sobre la tecnología y la ingeniería detrás de estos increíbles vehículos, que hacen posible que estos pilotos alcancen velocidades supersónicas en las pistas. <br /> No importa si eres un fanático de la Fórmula Uno o simplemente te interesa conocer más sobre este deporte emocionante, esta página es el lugar perfecto para estar informado. ¡Síguenos para no perderte ninguna actualización! Y no te olvides de que tenemos regalos todos los meses para los afortunados que ganen nuestros sorteos. Asi que no lo dudes.",
+    "enlace": "<a href='./Formulario.html'>¡Registrate aqui!</a>",
+    "titIndex": "Bienvenido a tu guia para el Campeonato Mundial de F1 2023",
+    "titPil": "Conoce a los pilotos",
+    "titRec": "Investiga los Recorridos",
+    "tHead": "<th scope=\"col\">Número</th><th scope=\"col\">Circuito</th><th scope=\"col\">Fecha</th><th scope=\"col\">Longitud</th><th scope=\"col\">Último ganador</th>",
+    "forms2":"<legend>Datos Personales</legend><p><label for=\"name_id\">Nombre:</label><br><input type=\"text\" id=\"name_id\" name=\"name\" oninput=\"validarInput('name_id')\"></p><p><label for=\"phone_id\">Teléfono:</label><br><input type=\"text\" id=\"phone_id\" name=\"phone\" oninput=\"validarInput('phone_id')\"></p><p><label for=\"email_id\">Email:</label><br><input type=\"text\" id=\"email_id\" name=\"email\" oninput=\"validarInput('email_id')\" required></p>",
+    "thx":"Gracias por participar",
+    "regis":"Registrate"
+  },
+  "fr": {
+    "ini": "Accueil",
+    "pil": "Rencontrez les pilotes",
+    "rec": "Étudiez les parcours",
+    "form": "Participez au sort!",
+    "content": "<p>Bienvenue sur notre page dédiée à la Formule 1, le championnat de sport automobile le plus prestigieux au monde. Ici, vous trouverez tout ce qui concerne cette compétition passionnante, de son histoire aux derniers détails de la saison en cours.<br /> La Formule 1 est un sport de vitesse qui a attiré des millions de fans du monde entier depuis sa création en 1950. Avec une combinaison de compétences, de technologie et d'émotion, la Formule 1 est devenue l'un des sports les plus populaires et les plus suivis dans le monde.<br /> Sur cette page, vous pouvez trouver des informations sur les équipes et les pilotes participants, ainsi que des nouvelles, des résultats et des classements mis à jour pour chaque course. De plus, nous aurons également un contenu exclusif sur la technologie et l'ingénierie derrière ces incroyables véhicules, qui permettent à ces pilotes d'atteindre des vitesses supersoniques sur les pistes. <br /> Que vous soyez un fan inconditionnel de la Formule 1 ou simplement intéressé à en apprendre davantage sur ce sport passionnant, cette page est l'endroit idéal pour rester informé. Suivez-nous pour ne rien manquer ! Et n'oubliez pas que nous avons des cadeaux tous les mois pour les chanceux qui gagnent nos concours. Alors n'hésitez pas.</p>",
+    "enlace": "<a href='./Formulario.html'>¡Participez au sort!</a>",
+    "titIndex": "Bienvenue dans votre guide du Championnat du monde de Formule 1 2023.",
+    "titPil": "Rencontrez les pilotes",
+    "titRec": "Étudiez les parcours",
+    "tHead": "<th scope=\"col\">Numéro</th><th scope=\"col\">Circuit</th><th scope=\"col\">Date</th><th scope=\"col\">Longueur</th><th scope=\"col\">Dernier vainqueur</th>",
+    "forms2":"<legend>Données personnelles</legend><p><label for=\"name_id\">Prenom:</label><br><input type=\"text\" id=\"name_id\" name=\"name\" oninput=\"validarInput('name_id')\"></p><p><label for=\"phone_id\">Téléphone:</label><br><input type=\"text\" id=\"phone_id\" name=\"phone\" oninput=\"validarInput('phone_id')\"></p><p><label for=\"email_id\">E-mail:</label><br><input type=\"text\" id=\"email_id\" name=\"email\" oninput=\"validarInput('email_id')\" required></p>",
+    "thx":"Merci de participer",
+    "regis":"Inscrivez-vous"
+  },
+  "gr": {
+    "ini": "Home",
+    "pil": "Fahrer kennenlernen",
+    "rec": "Recherchiere die Strecken",
+    "form": "Nimm am Gewinnspiel teil!",
+    "content": "<p>Willkommen auf unserer Seite, die der Formel 1 gewidmet ist, der renommiertesten Motorsportmeisterschaft der Welt. Hier finden Sie alles rund um diesen aufregenden Wettbewerb, von seiner Geschichte bis zu den neuesten Details der laufenden Saison.<br /> Die Formel 1 ist eine Sportart, die seit ihrer Gründung im Jahr 1950 Millionen von Fans aus der ganzen Welt angezogen hat. Mit einer Kombination aus Fähigkeiten, Technologie und Emotionen hat sich die Formel 1 zu einer der beliebtesten und meistverfolgten Sportarten der Welt entwickelt.<br /> Auf dieser Seite finden Sie Informationen zu den teilnehmenden Teams und Fahrern sowie aktuelle Nachrichten, Ergebnisse und Ranglisten für jedes Rennen. Außerdem haben wir exklusive Inhalte über die Technologie und Ingenieurwissenschaften hinter diesen unglaublichen Fahrzeugen, die es den Fahrern ermöglichen, auf den Strecken supersonische Geschwindigkeiten zu erreichen.<br /> Egal, ob Sie ein Fan der Formel 1 sind oder einfach nur mehr über diesen aufregenden Sport erfahren möchten, diese Seite ist der perfekte Ort, um informiert zu bleiben. Folgen Sie uns, um keine Updates zu verpassen! Und vergessen Sie nicht, dass wir jeden Monat Geschenke für die Glücklichen haben, die unsere Verlosungen gewinnen. Also zögern Sie nicht.</p>",
+    "enlace": "<a href='./Formulario.html'>Nimm am Gewinnspiel teil!</a>",
+    "titIndex": "Willkommen zu Ihrem Leitfaden für die Formel-1-Weltmeisterschaft 2023.",
+    "titPil": "Fahrer kennenlernen",
+    "titRec": "Recherchiere die Strecken",
+    "tHead": "<th scope=\"col\">Nummer</th><th scope=\"col\">Rennstrecke</th><th scope=\"col\">Datum</th><th scope=\"col\">Länge</th><th scope=\"col\">Letzter Gewinner</th>",
+    "forms2":"<legend>Persönliche Daten</legend><p><label for=\"name_id\">Name:</label><br><input type=\"text\" id=\"name_id\" name=\"name\" oninput=\"validarInput('name_id')\"></p><p><label for=\"phone_id\">Telefon:</label><br><input type=\"text\" id=\"phone_id\" name=\"phone\" oninput=\"validarInput('phone_id')\"></p><p><label for=\"email_id\">E-mail:</label><br><input type=\"text\" id=\"email_id\" name=\"email\" oninput=\"validarInput('email_id')\" required></p>",
+    "thx":"Danke für die Teilnahme",
+    "regis":"Registrieren Sie sich"
+  }
+}

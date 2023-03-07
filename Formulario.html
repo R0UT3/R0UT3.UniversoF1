@@ -28,10 +28,17 @@
       <h1 class="top">Universo F1</h1></div>
       
         <ul class="contenedor" id="roundedfull">
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./Pilotos.html">Conoce a los pilotos</a></li>
-          <li><a href="./Circuitos.html">Investiga los recorridos</a></li>
-          <li><a href="./Formulario.html">Entra en el sorteo</a></li>
+          <li><a href="./index.html" ><p id="ini">Inicio</p></a></li>
+        <li><a href="./Pilotos.html" ><p id="pil">Conoce a los pilotos</p></a></li>
+        <li><a href="./Circuitos.html" ><p id="rec">Investiga los recorridos</p></a></li>
+        <li><a href="./Formulario.html" ><p id="form">Entra en el sorteo</p></a></li>
+        <label  for="language-select"></label>
+        <li><select id="language-select">
+          <option value="es"><img src="./Coches/es.png" >Español</option>
+          <option value="en"><img src="./Coches/gb-eng.png" >English</option>
+          <option value="fr"><img src="./Coches/fr.png" >Francais</option>
+          <option value="gr"><img src="./Coches/gr.png" >Deutsch</option>
+        </select></li>
     </ul>
         </nav>
 
@@ -42,19 +49,19 @@
      <legend>Datos personales</legend>
      <p>
       <label for="name_id">Nombre:</label><br>
-       <input type="text" id="name_id" name="name" oninput="validarInput('name_id')"></input>
+       <input type="text" id="name_id" name="name" oninput="validarInput('name_id')">
      </p>
      <p>
       <label for="phone_id">Teléfono:</label><br>
-        <input type="text" id="phone_id" name="phone" oninput="validarInput('phone_id')"></input>
+        <input type="text" id="phone_id" name="phone" oninput="validarInput('phone_id')">
      </p>
      <p>
       <label for="email_id">Email:</label><br>
-        <input type="text" id="email_id" name="email" oninput="validarInput('email_id')" required></input>
+        <input type="text" id="email_id" name="email" oninput="validarInput('email_id')" required>
      </p>
     </fieldset>
     <fieldset class="boton">
-        <input type="submit" value="Registrate" ></input>
+        <input id="regis" type="submit" value="Registrate" >
     </fieldset><img src="./Coches/pavos.jfif" width="400" height=auto>
    </form>
    <footer class="text-center text-white" style="background-color: #f1f1f1;">
@@ -95,7 +102,8 @@
       <a class="text-dark" href="https://github.com/R0UT3">Github</a>
     </div>
   </footer>
-    
+  <script src="idioma.js"></script>
+  <script src="textos.json"></script>
 </body>
 
 </html>
