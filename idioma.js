@@ -18,7 +18,7 @@ langSelect.addEventListener("change", function () {
 function replaceTexts(lang) {
   document.documentElement.setAttribute("lang", lang);
   document.documentElement.setAttribute("data-lang", lang);
-  fetch("./R0UT3.UniversoF1/textos.json")
+  fetch("./textos.json")
     .then((response) => response.json())
     .then((json) => {
       if (window.location.pathname === "/R0UT3.UniversoF1/index.html") {
