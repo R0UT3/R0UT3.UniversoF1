@@ -1,6 +1,7 @@
 const langSelect = document.getElementById("language-select");
 const oldLang = localStorage.getItem("lang");
 if (oldLang) {
+  alert(window.location.pathname);
   replaceTexts(oldLang);
   const opcionSeleccionada = langSelect.querySelector(
     `option[value="${oldLang}"]`
@@ -21,7 +22,6 @@ function replaceTexts(lang) {
   fetch("/textos.json")
     .then((response) => response.json())
     .then((json) => {
-      alert(window.location.pathname);
       if (window.location.pathname === "/index.html") {
         document.getElementById("ini").textContent = json[lang].ini;
         document.getElementById("pil").textContent = json[lang].pil;
