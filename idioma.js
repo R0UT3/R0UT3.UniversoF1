@@ -22,7 +22,7 @@ function replaceTexts(lang) {
   fetch("/textos.json")
     .then((response) => response.json())
     .then((json) => {
-      if (window.location.pathname === "/index.html") {
+      if (window.location.pathname === "/R0UT3.UniversoF1/index.html") {
         document.getElementById("ini").textContent = json[lang].ini;
         document.getElementById("pil").textContent = json[lang].pil;
         document.getElementById("rec").textContent = json[lang].rec;
@@ -30,20 +30,20 @@ function replaceTexts(lang) {
         document.getElementById("content").innerHTML = json[lang].content;
         document.getElementById("enlace").innerHTML = json[lang].enlace;
         document.getElementById("titIndex").textContent = json[lang].titIndex;
-      } else if (window.location.pathname === "/Pilotos.html") {
+      } else if (window.location.pathname === "/R0UT3.UniversoF1/Pilotos.html") {
         document.getElementById("ini").textContent = json[lang].ini;
         document.getElementById("pil").textContent = json[lang].pil;
         document.getElementById("rec").textContent = json[lang].rec;
         document.getElementById("form").textContent = json[lang].form;
         document.getElementById("titPil").textContent = json[lang].titPil;
-      } else if (window.location.pathname === "/Circuitos.html") {
+      } else if (window.location.pathname === "/R0UT3.UniversoF1/Circuitos.html") {
         document.getElementById("ini").textContent = json[lang].ini;
         document.getElementById("pil").textContent = json[lang].pil;
         document.getElementById("rec").textContent = json[lang].rec;
         document.getElementById("form").textContent = json[lang].form;
         document.getElementById("titRec").textContent = json[lang].titRec;
         document.getElementById("tHead").innerHTML = json[lang].tHead;
-      } else if (window.location.pathname === "/Formulario.html") {
+      } else if (window.location.pathname === "/R0UT3.UniversoF1/Formulario.html") {
         document.getElementById("ini").textContent = json[lang].ini; 
         document.getElementById("pil").textContent = json[lang].pil;
         document.getElementById("rec").textContent = json[lang].rec;
@@ -51,7 +51,7 @@ function replaceTexts(lang) {
         document.getElementById("forms2").innerHTML = json[lang].forms2;
         document.getElementById("regis").value = json[lang].regis;
       }
-      else if (window.location.pathname === "/Gracias.html") {
+      else if (window.location.pathname === "/R0UT3.UniversoF1/Gracias.html") {
         document.getElementById("ini").textContent = json[lang].ini;
         document.getElementById("pil").textContent = json[lang].pil;
         document.getElementById("rec").textContent = json[lang].rec;
