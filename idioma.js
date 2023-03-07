@@ -1,7 +1,6 @@
 const langSelect = document.getElementById("language-select");
 const oldLang = localStorage.getItem("lang");
 if (oldLang) {
-  alert(window.location.pathname);
   replaceTexts(oldLang);
   const opcionSeleccionada = langSelect.querySelector(
     `option[value="${oldLang}"]`
