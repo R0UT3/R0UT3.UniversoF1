@@ -21,6 +21,7 @@ function replaceTexts(lang) {
   fetch("./textos.json")
     .then((response) => response.json())
     .then((json) => {
+      alert(window.location.pathname);
       if (window.location.pathname === "./index.html") {
         document.getElementById("ini").textContent = json[lang].ini;
         document.getElementById("pil").textContent = json[lang].pil;
