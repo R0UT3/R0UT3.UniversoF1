@@ -50,6 +50,11 @@ function replaceTexts(lang) {
       ) {
         document.getElementById("thx").textContent = json[lang].thx;
       }
+      else{
+        document.getElementById("content").innerHTML = json[lang].content;
+        document.getElementById("enlace").innerHTML = json[lang].enlace;
+        document.getElementById("titIndex").textContent = json[lang].titIndex;
+      }
     })
     .catch((error) => {
       //Lo ponemos para comprobar que hay un error
