@@ -18,7 +18,7 @@ langSelect.addEventListener("change", function () {
 function replaceTexts(lang) {
   document.documentElement.setAttribute("lang", lang);
   document.documentElement.setAttribute("data-lang", lang);
-  fetch("textos.json")
+  fetch("/textos.json")
     .then((response) => response.json())
     .then((json) => {
       if (window.location.pathname === "/index.html") {
