@@ -43,7 +43,7 @@ function replaceTexts(lang) {
         document.getElementById("titRec").textContent = json[lang].titRec;
         document.getElementById("tHead").innerHTML = json[lang].tHead;
       } else if (window.location.pathname === "/Formulario.html") {
-        document.getElementById("ini").textContent = json[lang].ini;
+        document.getElementById("ini").textContent = json[lang].ini; 
         document.getElementById("pil").textContent = json[lang].pil;
         document.getElementById("rec").textContent = json[lang].rec;
         document.getElementById("form").textContent = json[lang].form;
